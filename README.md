@@ -1,4 +1,4 @@
-# ex1bim_ir26a
+# Examen de Primer Bimestre - Sistema de Recuperación de Información
 
 Repositorio para el Examen 1er Bimestre - IR26A
 
@@ -24,8 +24,8 @@ Este repositorio contiene los notebooks desarrollados para el primer examen del 
 2. **(Opcional) Crea un entorno virtual:**
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # En Windows: venv\Scripts\activate
+   python -m venv .venv
+   source .venv/bin/activate  # En Windows: venv\Scripts\activate
    ```
 
 3. **Instala Jupyter Notebook y dependencias:**
@@ -35,14 +35,20 @@ Este repositorio contiene los notebooks desarrollados para el primer examen del 
    ```bash
    pip install -r requirements.txt
    ```
+4. **Descarga la data de Kaggle:**
+   
+   Descarga la data de [Rotten Tomatoes movies and critic reviews dataset](https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset), y crea una carpeta llamada 'data' dentro de la carpeta del proyecto.
 
-4. **Inicia Jupyter Notebook:**
+   Los archivos .csv descargados muevelos a la carpeta data.
+
+
+6. **Inicia Jupyter Notebook:**
 
    ```bash
    jupyter notebook
    ```
 
-5. **Abre el notebook deseado desde el navegador y sigue las instrucciones dentro del notebook.**
+7. **Abre el notebook desde el navegador o IDE y sigue las instrucciones dentro del notebook.**
 
 ## Autor
 
